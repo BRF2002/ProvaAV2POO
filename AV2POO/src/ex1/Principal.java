@@ -10,20 +10,20 @@ public class Principal {
 			Scanner ler = new Scanner(System.in);
 			String dataCriacao,nomeUsuario,dataNascimento,senha, dataPublicacao, textoPublicacao, linkMidia;
 			
-			System.out.println("Informe a data de criação: ");
+			System.out.println("Digite a data da criaÃ§Ã£o: ");
 			dataCriacao=ler.next();
-			System.out.println("Informe o nome de usuário: ");
+			System.out.println("Digite o usuÃ¡rio: ");
 			nomeUsuario=ler.next();
-			System.out.println("Informe a data de nascimento: ");
+			System.out.println("Digite a sua data de nascimento: ");
 			dataNascimento=ler.next();
-			System.out.println("Informe a senha: ");
+			System.out.println("Senha: ");
 			senha=ler.next();
 			
-			System.out.println("Informe a data da publicação: ");
+			System.out.println("Digite a data da publicaÃ§Ã£o: ");
 			dataPublicacao=ler.next();
-			System.out.println("Informe o texto da publicação: ");
+			System.out.println("Digite o texto que deseja publicar: ");
 			textoPublicacao=ler.next();
-			System.out.println("Informe o link: ");
+			System.out.println("Link: ");
 			linkMidia=ler.next();
 			
 			
