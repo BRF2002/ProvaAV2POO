@@ -13,21 +13,21 @@ public class Principal {
 		String nome, titulo; 
 
 		 ArrayList<ProvaEnem> provas = new ArrayList<> (); 
-		System.out.println("Informe o ID do aluno: ");
+		System.out.println("Digite o ID: ");
 		id_aluno=ler.nextInt();
-		System.out.println("Informe o nome do aluno: ");
+		System.out.println("Digite o nome: ");
 		nome=ler.next();
-		System.out.println("Informe o ano: ");
+		System.out.println("Digite o ano: ");
 		ano=ler.nextInt();
 			 
 		 AlunoEnem a1 = new AlunoEnem(id_aluno, nome, ano);
 		 
 		 for(int i=0;i<=5;i++) {
-			System.out.println("Informe o ID da Prova: ");
+			System.out.println("Digite o ID da Prova: ");
 			id_prova=ler.nextInt();
-			System.out.println("Informe o titulo da Prova: ");
+			System.out.println("Digite o titulo da avaliação: ");
 			titulo=ler.next();
-			System.out.println("Informe a nota: ");
+			System.out.println("Digite a nota obtida: ");
 			nota=ler.nextInt();
 			
 			ProvaEnem prova1 = new ProvaEnem (id_prova, titulo, nota);
@@ -36,7 +36,7 @@ public class Principal {
 			notaTotal+=prova1.getNota();
 			
 		 }
-		 System.out.println("A nota total do aluno "+nome+" �: "+notaTotal);
+		 System.out.println("A nota total do aluno "+nome+" é: "+notaTotal);
 	}
 
 }
